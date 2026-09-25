@@ -28,6 +28,18 @@ The workbook contains two linked dashboards:
 - Customer Distribution by number of orders
 - Top 10 Customers by Profit
 
+## Tableau Techniques Used
+
+-  **Calculated Fields** — e.g. YoY % change, Profit Ratio, Above/Below Average flag
+-  **Parameters** — e.g. KPI/metric selector, Top N control
+-  **Table Calculations** — e.g. % of Total, Running Total, Moving Average
+-  **Dashboard Actions** — Filter / Highlight / URL actions linking charts and views
+-  **Sets & Groups** — e.g. Top 10 Customers set, subcategory grouping
+-  **Dynamic Zone Visibility** — showing/hiding containers based on selection
+-  **Sheet Swap technique** — switching between Sales and Customers views
+- **Dual-Axis / Reference Lines** — average lines on the weekly trend charts
+
+
 ## Tech Stack
 
 - **Tableau Desktop / Tableau Public** — dashboard design and calculations
@@ -38,7 +50,7 @@ The workbook contains two linked dashboards:
 | File | Description |
 |---|---|
 | `sales-customers-dashboard.twbx` | Packaged Tableau workbook containing both dashboards |
-| `screenshots/` | Dashboard preview images |
+| `img/` | Dashboard preview images |
 
 ## How to View
 
@@ -46,7 +58,7 @@ The workbook contains two linked dashboards:
 2. Open `sales-customers-dashboard.twbx`.
 3. Use the dashboard tabs at the bottom to switch between **Sales** and **Customers** views.
 
-Or view the published version directly on Tableau Public: *[(https://public.tableau.com/app/profile/tanzile.gasimova)]*
+Or view the published version directly on Tableau Public: [tanzila.gasimova](https://public.tableau.com/app/profile/tanzile.gasimova)
 
 ## Key Insights
 
